@@ -1,7 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f78eeb5c-ba55-4b8f-a7cc-634a1f290832" name="Default" comment="" />
+    <list default="true" id="f78eeb5c-ba55-4b8f-a7cc-634a1f290832" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/a6d940de-37f2-41f4-8a8b-e8086d7b8816/_metadata_/metadata" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/a6d940de-37f2-41f4-8a8b-e8086d7b8816/_metadata_/metadata.keystream" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/a6d940de-37f2-41f4-8a8b-e8086d7b8816/_metadata_/metadata.keystream.len" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/a6d940de-37f2-41f4-8a8b-e8086d7b8816/_metadata_/metadata.len" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/a6d940de-37f2-41f4-8a8b-e8086d7b8816/_metadata_/metadata.values.at" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/a6d940de-37f2-41f4-8a8b-e8086d7b8816/_metadata_/metadata_i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/a6d940de-37f2-41f4-8a8b-e8086d7b8816/_metadata_/metadata_i.len" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/e6a79beb-efcd-4f6d-b368-0bbf393dd6ce/_metadata_/metadata" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/e6a79beb-efcd-4f6d-b368-0bbf393dd6ce/_metadata_/metadata.keystream" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/e6a79beb-efcd-4f6d-b368-0bbf393dd6ce/_metadata_/metadata.keystream.len" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/e6a79beb-efcd-4f6d-b368-0bbf393dd6ce/_metadata_/metadata.len" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/e6a79beb-efcd-4f6d-b368-0bbf393dd6ce/_metadata_/metadata.values.at" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/e6a79beb-efcd-4f6d-b368-0bbf393dd6ce/_metadata_/metadata_i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/e6a79beb-efcd-4f6d-b368-0bbf393dd6ce/_metadata_/metadata_i.len" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/blackhall.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/bluehall.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/movieImages/harrypotter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/movieImages/mazeruner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/movieImages/mazeruner_QZS65Wo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/movieImages/sevan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/movieImages/sevan_YhXMjpj.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/movieImages/sevan_ojWZ2Az.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/movieImages/spider_man.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/movieImages/thePromice.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/redhall.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/cinema.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/e6a79beb-efcd-4f6d-b368-0bbf393dd6ce.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/e6a79beb-efcd-4f6d-b368-0bbf393dd6ce/storage.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Procfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/moviehalls/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/moviehalls/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/moviehalls/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/moviehalls/migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/moviehalls/migrations/0002_auto_20180331_0459.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/moviehalls/migrations/0003_reserved.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/moviehalls/migrations/0004_reserved_seat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/moviehalls/migrations/0005_auto_20180401_0552.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/moviehalls/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/moviehalls/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/moviehalls/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/moviehalls/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/moviehalls/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cinema/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cinema/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cinema/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cinema/wsgi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/halls/blackhall.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/halls/bluehall.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/halls/redhall.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/reserved_film.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tuntime.txt" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -322,6 +388,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -360,6 +429,7 @@
     <option name="width" value="1393" />
     <option name="height" value="876" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -381,34 +451,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="cinema" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cinema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cinema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cinema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cinema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cinema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cinema" />
@@ -662,13 +704,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="24" width="1393" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3449297" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3449297" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09030348" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
