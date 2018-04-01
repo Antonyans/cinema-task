@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %}
+    <title>Cinema</title>
+{% endblock %}
+{% block content %}
+
+    <div id="cinemahalls">
+        <div>
+            <a href="{% url 'red_hall' %}">Red hall</a>
+        </div>
+        <div>
+            <a href="{% url 'blue_hall' %}">Blue hall</a>
+        </div>
+        <div>
+            <a href="{% url 'black_hall' %}">Black hall</a>
+        </div>
+    </div>
+{% endblock %}

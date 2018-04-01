@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="cinemadb@localhost" uuid="e6a79beb-efcd-4f6d-b368-0bbf393dd6ce">
+      <database-info product="PostgreSQL" version="9.5.12" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4.1212">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>cinemauser</user-name>
+      <introspection-schemas>cinemadb:public</introspection-schemas>
+    </data-source>
+  </component>
+</project>

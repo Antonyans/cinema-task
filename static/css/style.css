@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: azure;
+}
+
+.number_reserved_seats {
+    display: none;
+}
+
+#hall {
+    margin: auto;
+    width: 70%;
+    height: 630px;
+    border: 2px red solid;
+    min-width: 650px;
+
+}
+
+#row {
+    width: 95%;
+    height: 50px;
+    padding: 10px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.row_number {
+    text-align: center;
+    width: 6%;
+    height: 30px;
+    margin-top: 10px;
+    border: 3px black solid;
+}
+
+#col {
+    margin-top: 50px;
+    width: 5%;
+    height: 600px;
+    float: left;
+}
+
+.col_number {
+    text-align: center;
+    width: 90%;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border: 3px black solid;
+}
+
+.bench {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 95%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.bench_number {
+    cursor: pointer;
+    width: 6%;
+    height: 45px;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 10px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}

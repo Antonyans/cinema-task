@@ -1,0 +1,205 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %}
+    <title>Cinema</title>
+{% endblock %}
+{% block content %}
+
+    {% for movies in  movie %}
+        {% if movies.movies_red_hall %}
+            <span>Name Film: {{ movies.movies_red_hall.movies_showing.movie_name }}</span>
+            <br>
+            <span>Seans Film: {{ movies.movies_red_hall.movies_showing.showtime }}</span>
+            <div>
+                <img src="/{{ movies.movies_red_hall.movies_showing.movie_image.url }}" alt="" width="320px">
+            </div>
+        {% endif %}
+
+    {% endfor %}
+
+    {% for movies in  movie %}
+        {% if  movies.movies_blue_hall %}
+            <span>Name Film: {{ movies.movies_blue_hall.movies_showing.movie_name }}</span>
+            <br>
+            <span>Seans Film: {{ movies.movies_blue_hall.movies_showing.showtime }}</span>
+            <div>
+                <img src="/{{ movies.movies_blue_hall.movies_showing.movie_image.url }}" alt="" width="320px">
+            </div>
+        {% endif %}
+    {% endfor %}
+
+    {% for movies in  movie %}
+        {% if  movies.movies_black_hall %}
+            <span>Name Film: {{ movies.movies_black_hall.movies_showing.movie_name }} </span>
+            <br>
+            <span>Seans Film: {{ movies.movies_black_hall.movies_showing.showtime }}</span>
+            <div>
+                <img src="/{{ movies.movies_black_hall.movies_showing.movie_image.url }}" alt="" width="320px">
+            </div>
+        {% endif %}
+    {% endfor %}
+
+    {% for reserved_seats in reserved_seat %}
+        <div class="reservet_seats">
+            {% if reserved_seats.seat %}
+                <span class="number_reserved_seats">{{ reserved_seats.seat }}</span>
+            {% endif %}
+        </div>
+    {% endfor %}
+
+    <div id="hall">
+        <div id="row">
+            <div class="row_number">1</div>
+            <div class="row_number">2</div>
+            <div class="row_number">3</div>
+            <div class="row_number">4</div>
+            <div class="row_number">5</div>
+            <div class="row_number">6</div>
+            <div class="row_number">7</div>
+            <div class="row_number">8</div>
+            <div class="row_number">9</div>
+            <div class="row_number">10</div>
+        </div>
+        <div id="col">
+            <div class="col_number">1</div>
+            <div class="col_number">2</div>
+            <div class="col_number">3</div>
+            <div class="col_number">4</div>
+            <div class="col_number">5</div>
+            <div class="col_number">6</div>
+            <div class="col_number">7</div>
+            <div class="col_number">8</div>
+            <div class="col_number">9</div>
+            <div class="col_number">10</div>
+        </div>
+        <div class="bench">
+            <div class="bench_number green">1</div>
+            <div class="bench_number green">2</div>
+            <div class="bench_number green">3</div>
+            <div class="bench_number green">4</div>
+            <div class="bench_number green">5</div>
+            <div class="bench_number green">6</div>
+            <div class="bench_number green">7</div>
+            <div class="bench_number green">8</div>
+            <div class="bench_number green">9</div>
+            <div class="bench_number green">10</div>
+        </div>
+        <div class="bench">
+            <div class="bench_number green">11</div>
+            <div class="bench_number green">12</div>
+            <div class="bench_number green">13</div>
+            <div class="bench_number green">14</div>
+            <div class="bench_number green">15</div>
+            <div class="bench_number green">16</div>
+            <div class="bench_number green">17</div>
+            <div class="bench_number green">18</div>
+            <div class="bench_number green">19</div>
+            <div class="bench_number green">20</div>
+        </div>
+        <div class="bench">
+            <div class="bench_number green">21</div>
+            <div class="bench_number green">22</div>
+            <div class="bench_number green">23</div>
+            <div class="bench_number green">24</div>
+            <div class="bench_number green">25</div>
+            <div class="bench_number green">26</div>
+            <div class="bench_number green">27</div>
+            <div class="bench_number green">28</div>
+            <div class="bench_number green">29</div>
+            <div class="bench_number green">30</div>
+        </div>
+        <div class="bench">
+            <div class="bench_number green">31</div>
+            <div class="bench_number green">32</div>
+            <div class="bench_number green">33</div>
+            <div class="bench_number green">34</div>
+            <div class="bench_number green">35</div>
+            <div class="bench_number green">36</div>
+            <div class="bench_number green">37</div>
+            <div class="bench_number green">38</div>
+            <div class="bench_number green">39</div>
+            <div class="bench_number green">40</div>
+        </div>
+        <div class="bench">
+            <div class="bench_number green">41</div>
+            <div class="bench_number green">42</div>
+            <div class="bench_number green">43</div>
+            <div class="bench_number green">44</div>
+            <div class="bench_number green">45</div>
+            <div class="bench_number green">46</div>
+            <div class="bench_number green">47</div>
+            <div class="bench_number green">48</div>
+            <div class="bench_number green">49</div>
+            <div class="bench_number green">50</div>
+        </div>
+        <div class="bench">
+            <div class="bench_number green">51</div>
+            <div class="bench_number green">52</div>
+            <div class="bench_number green">53</div>
+            <div class="bench_number green">54</div>
+            <div class="bench_number green">55</div>
+            <div class="bench_number green">56</div>
+            <div class="bench_number green">57</div>
+            <div class="bench_number green">58</div>
+            <div class="bench_number green">59</div>
+            <div class="bench_number green">60</div>
+        </div>
+        <div class="bench">
+            <div class="bench_number green">61</div>
+            <div class="bench_number green">62</div>
+            <div class="bench_number green">63</div>
+            <div class="bench_number green">64</div>
+            <div class="bench_number green">65</div>
+            <div class="bench_number green">66</div>
+            <div class="bench_number green">67</div>
+            <div class="bench_number green">68</div>
+            <div class="bench_number green">69</div>
+            <div class="bench_number green">70</div>
+        </div>
+        <div class="bench">
+            <div class="bench_number green">71</div>
+            <div class="bench_number green">72</div>
+            <div class="bench_number green">73</div>
+            <div class="bench_number green">74</div>
+            <div class="bench_number green">75</div>
+            <div class="bench_number green">76</div>
+            <div class="bench_number green">77</div>
+            <div class="bench_number green">78</div>
+            <div class="bench_number green">79</div>
+            <div class="bench_number green">80</div>
+        </div>
+        <div class="bench">
+            <div class="bench_number green">81</div>
+            <div class="bench_number green">82</div>
+            <div class="bench_number green">83</div>
+            <div class="bench_number green">84</div>
+            <div class="bench_number green">85</div>
+            <div class="bench_number green">86</div>
+            <div class="bench_number green">87</div>
+            <div class="bench_number green">88</div>
+            <div class="bench_number green">89</div>
+            <div class="bench_number green">90</div>
+        </div>
+        <div class="bench">
+            <div class="bench_number green">91</div>
+            <div class="bench_number green">92</div>
+            <div class="bench_number green">93</div>
+            <div class="bench_number green">94</div>
+            <div class="bench_number green">95</div>
+            <div class="bench_number green">96</div>
+            <div class="bench_number green">97</div>
+            <div class="bench_number green">98</div>
+            <div class="bench_number green">99</div>
+            <div class="bench_number green">100</div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+{% endblock %}

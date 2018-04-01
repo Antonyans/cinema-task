@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+{% block title %}
+    <title>home</title>
+{% endblock %}
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Cinema</title>
+
+    <link rel="stylesheet" href="{% static "css/style.css" %}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
+          integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+</head>
+
+<body>
+    <h3>Welcom to Cinema</h3>
+    <a href="{% url 'home' %}">Home page</a><br>
+{% block content %}
+
+{% endblock content %}
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"
+        integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+        crossorigin="anonymous"></script>
+<script type="text/javascript" src="{% static 'js/script.js' %}"></script>
+</html>
