@@ -1,22 +1,19 @@
 {% extends 'base.html' %}
 {% load staticfiles %}
 {% block title %}
-  <title>Red Hall</title>
+    <title>Red Hall</title>
 {% endblock %}
 {% block content %}
-<h3>Red Hall</h3>
-{% for movies in  movie %}
-    ----------{{  movies.movies_red_hall.id }}
-
-    <a href="/red_hall/view_red_hall_film_detail/{{ movies.movies_red_hall.movies_showing.id  }}/{{ movies.movies_red_hall.id }}">
-        <span>Name Film: {{ movies.movies_red_hall.movies_showing.movie_name }} -{{ movies.movies_red_hall.movies_showing.id }}</span><br>
-    </a>
-    <span>Seans Film: {{ movies.movies_red_hall.movies_showing.showtime }}</span>
-    <div>
-        <img src="/{{ movies.movies_red_hall.movies_showing.movie_image.url  }}" alt="" width="320px">
-    </div>
-
-{% endfor %}
+    <h3>Red Hall</h3>
+    {% for movies in  movie %}
+        <a href="/red_hall/view_red_hall_film_detail/{{ movies.movies_red_hall.movies_showing.id }}/{{ movies.movies_red_hall.id }}">
+            <span>Name Film: {{ movies.movies_red_hall.movies_showing.movie_name }} -{{ movies.movies_red_hall.movies_showing.id }}</span><br>
+        </a>
+        <span>Seans Film: {{ movies.movies_red_hall.movies_showing.showtime }}</span>
+        <div>
+            <img src="/{{ movies.movies_red_hall.movies_showing.movie_image.url }}" alt="" width="320px">
+        </div>
+    {% endfor %}
 
 {% endblock %}
 

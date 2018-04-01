@@ -8,6 +8,23 @@ body {
     background-color: azure;
 }
 
+#cinemahalls{
+    display: flex;
+    flex-direction: row;
+}
+.text-center{
+    color: azure;
+    font-size: 48px;
+}
+
+.halls_avatar{
+    text-color: azure;
+    flex: 20px;
+    border: 1px solid gray;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 .number_reserved_seats {
     display: none;
 }

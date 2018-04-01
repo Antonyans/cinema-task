@@ -1,21 +1,18 @@
 {% extends 'base.html' %}
 {% load staticfiles %}
 {% block title %}
-  <title>black Hall</title>
+    <title>black Hall</title>
 {% endblock %}
 {% block content %}
-<h3>Black Hall</h3>
-{% for movies in  movie %}
-    ----------{{  movies.movies_black_hall.id }}
-
-    <a href="/blue_hall/view_film_detail/{{ movies.movies_black_hall.movies_showing.id  }}/{{ movies.movies_black_hall.id }}">
-        <span>Name Film: {{ movies.movies_black_hall.movies_showing.movie_name }} -{{ movies.movies_black_hall.movies_showing.id }}</span><br>
-    </a>
-    <span>Seans Film: {{ movies.movies_black_hall.movies_showing.showtime }}</span>
-    <div>
-        <img src="/{{ movies.movies_black_hall.movies_showing.movie_image.url  }}" alt="" width="320px">
-    </div>
-
-{% endfor %}
+    <h3>Black Hall</h3>
+    {% for movies in  movie %}
+        <a href="/blue_hall/view_film_detail/{{ movies.movies_black_hall.movies_showing.id }}/{{ movies.movies_black_hall.id }}">
+            <span>Name Film: {{ movies.movies_black_hall.movies_showing.movie_name }} -{{ movies.movies_black_hall.movies_showing.id }}</span><br>
+        </a>
+        <span>Seans Film: {{ movies.movies_black_hall.movies_showing.showtime }}</span>
+        <div>
+            <img src="/{{ movies.movies_black_hall.movies_showing.movie_image.url }}" alt="" width="320px">
+        </div>
+    {% endfor %}
 
 {% endblock %}

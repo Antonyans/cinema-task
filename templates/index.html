@@ -6,14 +6,20 @@
 {% block content %}
 
     <div id="cinemahalls">
-        <div>
-            <a href="{% url 'red_hall' %}">Red hall</a>
+        <div class="halls_avatar">
+            <a href="{% url 'red_hall' %}" class="text-center">
+                <div style="width: 320px; height: 320px; background-color:crimson ">Red hall</div>
+            </a>
         </div>
-        <div>
-            <a href="{% url 'blue_hall' %}">Blue hall</a>
+        <div class="halls_avatar">
+            <a href="{% url 'blue_hall' %}" class="text-center">
+                <div style="width: 320px; height: 320px; background-color:darkblue ">Blue hall</div>
+            </a>
         </div>
-        <div>
-            <a href="{% url 'black_hall' %}">Black hall</a>
+        <div class="halls_avatar">
+            <a href="{% url 'black_hall' %}" class="text-center">
+                <div style="width: 320px; height: 320px; background-color:black "> Black hall</div>
+            </a>
         </div>
     </div>
 {% endblock %}
