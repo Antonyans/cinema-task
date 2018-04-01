@@ -2,71 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f78eeb5c-ba55-4b8f-a7cc-634a1f290832" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/a6d940de-37f2-41f4-8a8b-e8086d7b8816/_metadata_/metadata" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/a6d940de-37f2-41f4-8a8b-e8086d7b8816/_metadata_/metadata.keystream" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/a6d940de-37f2-41f4-8a8b-e8086d7b8816/_metadata_/metadata.keystream.len" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/a6d940de-37f2-41f4-8a8b-e8086d7b8816/_metadata_/metadata.len" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/a6d940de-37f2-41f4-8a8b-e8086d7b8816/_metadata_/metadata.values.at" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/a6d940de-37f2-41f4-8a8b-e8086d7b8816/_metadata_/metadata_i" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/a6d940de-37f2-41f4-8a8b-e8086d7b8816/_metadata_/metadata_i.len" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/e6a79beb-efcd-4f6d-b368-0bbf393dd6ce/_metadata_/metadata" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/e6a79beb-efcd-4f6d-b368-0bbf393dd6ce/_metadata_/metadata.keystream" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/e6a79beb-efcd-4f6d-b368-0bbf393dd6ce/_metadata_/metadata.keystream.len" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/e6a79beb-efcd-4f6d-b368-0bbf393dd6ce/_metadata_/metadata.len" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/e6a79beb-efcd-4f6d-b368-0bbf393dd6ce/_metadata_/metadata.values.at" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/e6a79beb-efcd-4f6d-b368-0bbf393dd6ce/_metadata_/metadata_i" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/e6a79beb-efcd-4f6d-b368-0bbf393dd6ce/_metadata_/metadata_i.len" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/blackhall.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/bluehall.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/movieImages/harrypotter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/movieImages/mazeruner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/movieImages/mazeruner_QZS65Wo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/movieImages/sevan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/movieImages/sevan_YhXMjpj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/movieImages/sevan_ojWZ2Az.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/movieImages/spider_man.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/movieImages/thePromice.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/redhall.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/cinema.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/e6a79beb-efcd-4f6d-b368-0bbf393dd6ce.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/e6a79beb-efcd-4f6d-b368-0bbf393dd6ce/storage.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Procfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/moviehalls/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/moviehalls/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/moviehalls/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/moviehalls/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/moviehalls/migrations/0002_auto_20180331_0459.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/moviehalls/migrations/0003_reserved.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/moviehalls/migrations/0004_reserved_seat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/moviehalls/migrations/0005_auto_20180401_0552.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/moviehalls/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/moviehalls/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/moviehalls/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/moviehalls/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/moviehalls/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cinema/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cinema/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cinema/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cinema/wsgi.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/halls/blackhall.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/halls/bluehall.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/halls/redhall.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/reserved_film.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tuntime.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -306,11 +242,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -326,7 +262,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reserved_film.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="reserved_film.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/reserved_film.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
@@ -414,6 +350,7 @@
         <option value="$PROJECT_DIR$/cinema/wsgi.py" />
         <option value="$PROJECT_DIR$/cinema/settings.py" />
         <option value="$PROJECT_DIR$/templates/reserved_film.html" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -424,10 +361,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="47" />
-    <option name="y" value="24" />
+    <option name="x" value="269" />
+    <option name="y" value="175" />
     <option name="width" value="1393" />
-    <option name="height" value="876" />
+    <option name="height" value="481" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -703,7 +640,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="24" width="1393" height="876" extended-state="6" />
+    <frame x="269" y="175" width="1393" height="481" extended-state="0" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3449297" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1197,18 +1134,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/reserved_film.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="32" column="86" lean-forward="false" selection-start-line="32" selection-start-column="86" selection-end-line="32" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
