@@ -1,12 +1,12 @@
 from django.db import models
-
+from apps.moviehalls.renamefile import UploadToPathAndRename
 
 # Create your models here.
 
 
 class Movies(models.Model):
     movie_name = models.CharField(max_length=100, blank=False)
-    movie_image = models.ImageField(upload_to='static/images/movieImages', blank=False)
+    movie_image = models.ImageField(upload_to=UploadToPathAndRename('static/images/movieImages'), blank=False)
     showtime = models.DateTimeField()
 
     def __str__(self):
