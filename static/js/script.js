@@ -20,7 +20,6 @@ $(document).ready(function () {
 $(document).on('click', ".bench_number", function () {
     var value = $(this, ".bench_number");
     var seat_value = parseInt(value[0].innerHTML);
-    alert(seat_value)
     var film_url = window.location.pathname.split("hall_film_detail/")[1];
     reserved_seat()
     function reserved_seat() {
