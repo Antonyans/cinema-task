@@ -4,15 +4,20 @@
     <title>black Hall</title>
 {% endblock %}
 {% block content %}
-    <h3>Black Hall</h3>
-    {% for movies in  movie %}
-        <a href="/black_hall/view_black_hall_film_detail/{{ movies.movies_black_hall.movies_showing.id }}/{{ movies.movies_black_hall.id }}">
-            <span>Name Film: {{ movies.movies_black_hall.movies_showing.movie_name }}</span><br>
-        </a>
-        <span>Seans Film: {{ movies.movies_black_hall.movies_showing.showtime }}</span>
-        <div>
-            <img src="/{{ movies.movies_black_hall.movies_showing.movie_image.url }}" alt="" width="320px">
-        </div>
-    {% endfor %}
-
+    <h3>Black Hall</h3><br>
+    <h2>The list of screening films</h2>
+    <div class="show-movies">
+        {% for movies in  movie %}
+            <div class="row_movies">
+                <a href="/black_hall/view_black_hall_film_detail/{{ movies.movies_black_hall.movies_showing.id }}/{{ movies.movies_black_hall.id }}">
+                    <span>Name Film: {{ movies.movies_black_hall.movies_showing.movie_name }}</span><br>
+                </a>
+                <span>Seans Film: {{ movies.movies_black_hall.movies_showing.showtime }}</span>
+                <div>
+                    <img src="/{{ movies.movies_black_hall.movies_showing.movie_image.url }}" alt="" width="320px">
+                </div>
+                <h3>movies.movie</h3>
+            </div>>
+        {% endfor %}
+    </div>
 {% endblock %}

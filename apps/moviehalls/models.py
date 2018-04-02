@@ -60,11 +60,10 @@ class BlackHall(models.Model):
 class Reserved(models.Model):
     film = models.ForeignKey(Movies, on_delete=models.CASCADE)
     hall = models.ForeignKey(Halls, on_delete=models.CASCADE)
-    seat = models.IntegerField(default=0, blank=False)
+    seat = models.IntegerField(blank=False)
 
     def __str__(self):
-        return "{} - {} - {} - {}".format(self.film,
-                                          self.hall,
-                                          self.film.movie_name,
-                                          self.film.showtime,
-                                          )
+        return "{} - {} - {} ".format(self.film,
+                                      self.hall,
+                                      self.film.movie_name,
+                                      )

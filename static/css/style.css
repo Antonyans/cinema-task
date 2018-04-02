@@ -8,16 +8,17 @@ body {
     background-color: azure;
 }
 
-#cinemahalls{
+#cinemahalls {
     display: flex;
     flex-direction: row;
 }
-.text-center{
+
+.text-center {
     color: azure;
     font-size: 48px;
 }
 
-.halls_avatars{
+.halls_avatars {
     text-color: azure;
     flex: 20px;
     border: 1px solid gray;
@@ -25,6 +26,14 @@ body {
     margin-left: 5%;
     margin-right: 5%;
 }
+
+.show-movies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
 .number_reserved_seats {
     display: none;
 }
